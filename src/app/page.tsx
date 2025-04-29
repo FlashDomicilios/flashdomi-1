@@ -1,5 +1,6 @@
 "use client";
 
+import MapForm from "@/components/MapForm";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
@@ -39,7 +40,9 @@ export default function Home() {
           </Link>
         </div>
 
+        /* Puedes mantener MapForm aquí si quieres mostrarlo desde la home */
+        /<MapForm />/
       </div>
-    </main>
-  );
+    </main>
+  );
 }
