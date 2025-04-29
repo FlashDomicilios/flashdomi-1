@@ -41,8 +41,8 @@ export default function Home() {
         </div>
 
         {/* Puedes mantener MapForm aquí si quieres mostrarlo desde la home */}
-        {/*<MapForm />*/}
+        MapForm 
       </div>
-    </main>
-  );
+    </main>
+  );
 }
